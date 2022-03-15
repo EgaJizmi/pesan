@@ -67,7 +67,7 @@ input[type="checkbox"]{
 
 form select{
   margin: 5px 0;
-  height: 45px;
+  height: 40px;
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -118,6 +118,17 @@ form .btn .inner{
 form .btn:hover .inner{
   left: 0;
 }
+
+input[type=date]{
+  width: 100%;
+  margin: 5px 0;
+  height: 40px;
+  border-color: #f22325;
+  border-bottom-width: 2px;
+  
+}
+
+
 form .btn button{
   height: 100%;
   width: 100%;

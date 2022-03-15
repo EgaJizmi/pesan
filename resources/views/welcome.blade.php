@@ -14,7 +14,7 @@
                Pesan Aja
             </div> <br>
             <form action="#">
-               <label> <br> Asal Kota<label>
+            <h4>Kota Asal</h4>
                   <select class="form-select" aria-label="Default select example">
                   <option selected>Malang</option>
                   <option value="1">Pasuruan</option>
@@ -24,7 +24,7 @@
                   <option value="5">Bandung</option>
                   <option value="6">Jakarta</option>
                   </select>
-               <label> Kota Tujuan<label>
+                  <h4>Kota Tujuan</h4>
                   <select class="form-select" aria-label="Default select example">
                   <option selected>Malang</option>
                   <option value="1">Pasuruan</option>
@@ -35,36 +35,35 @@
                   <option value="6">Jakarta</option>
                   </select> 
                   
-                <div><label> <br>Tipe Kelas<label><div>  
+                <div> <h4>Kelas</h4>
                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                      <label class="form-check-label" for="flexRadioDefault1">
                         Premium
                      </label>
-                     </div>
+                     
                      <div class="form-check">
                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
                      <label class="form-check-label" for="flexRadioDefault2">
                         Eksekutif
                      </label>
-                     </div>
+                    
                      <div class="form-check">
-                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                     <label class="form-check-label" for="flexRadioDefault2">
+                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+                     <label class="form-check-label" for="flexRadioDefault3">
                         Bisnis
                      </label>
-                     </div>
+                     
                      <div class="form-check">
-                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                     <label class="form-check-label" for="flexRadioDefault2">
+                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" checked>
+                     <label class="form-check-label" for="flexRadioDefault4">
                         Ekonomi
                      </label>
                   </div>
                      <br>
-                     <div class="form-floating">                  
-                        <input type="date">
-                     </div>
-                     <div class="form-floating">                  
-                        <input type="date">
+                    
+                     <input type="date">
+                   
+                     <input type="date">
                      </div>
                
                <div class="btn">
